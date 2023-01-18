@@ -54,4 +54,17 @@ public class check {
         }
 
     }
-}
+    private String[] month= new String[7];
+    private int[] amount = new int[7];
+
+    public void graph(String[] Month, int[] countAmount){
+        String[] month = Month;
+        int[] amount = countAmount;
+    }
+    public String[] getMonth(){
+        return month;
+    }
+    public int[] getAmount(){
+        return amount;
+
+    }

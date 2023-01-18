@@ -30,7 +30,7 @@ public class Main extends Application {
         BarChart<String, Number> chart = new BarChart<>(xAxis, yAxis);
 //        StackedBarChart<String, Number> chart = new StackedBarChart<>(xAxis, yAxis);
         chart.setTitle("Total of Created Job & Pending Job");
-        Assignment a = new Assignment();
+        check a = new check();
 
         //Create data arrays
         String[] datax = a.getMonth();
