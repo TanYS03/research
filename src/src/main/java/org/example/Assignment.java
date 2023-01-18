@@ -332,8 +332,8 @@ import java.io.FileOutputStream;
         private int[] amount = new int[7];
 
         public void graph(String[] Month, int[] countAmount){
-            String[] month = Month;
-            int[] amount = countAmount;
+            month = Month;
+            amount = countAmount;
         }
         public String[] getMonth(){
             return month;
