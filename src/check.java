@@ -18,7 +18,7 @@ public class check {
             String[] Month = {"June", "July", "August", "September", "October", "November", "December"};
 
 
-                check = "\\[(.*)] sched: Allocate JobId=(\\d+) NodeList=(.*) #CPUs=(\\d+) Partition=(.*)";//
+            check = "\\[(.*)] sched: Allocate JobId=(\\d+) NodeList=(.*) #CPUs=(\\d+) Partition=(.*)";//
 
             int[] countAmount = new int[7];
 
@@ -54,17 +54,21 @@ public class check {
         }
 
     }
-    private String[] month= new String[7];
+
+    private String[] month = new String[7];
     private int[] amount = new int[7];
 
-    public void graph(String[] Month, int[] countAmount){
+    public void graph(String[] Month, int[] countAmount) {
         String[] month = Month;
         int[] amount = countAmount;
     }
-    public String[] getMonth(){
+
+    public String[] getMonth() {
         return month;
     }
-    public int[] getAmount(){
+
+    public int[] getAmount() {
         return amount;
 
     }
+}
